@@ -1,7 +1,8 @@
 
-![WiTeX screenshot](https://raw.githubusercontent.com/AndrewBelt/WiTeX/master/screenshot.png)
+<img width="1852" alt="Screen Shot 2021-08-14 at 15 42 35" src="https://user-images.githubusercontent.com/62226606/129461962-3366da6a-761b-4494-82ac-09e97a722935.png">
 
-# WiTeX
+
+# Wikipedia Dark Mode
 ## Install
 If you have a Wikipedia account, open your [Preferences](https://en.wikipedia.org/wiki/Special:Preferences), go to the Appearance tab, and edit the Custom CSS for the Vector skin.
 Paste the contents of [`style.css`](https://raw.githubusercontent.com/AndrewBelt/WiTeX/master/style.css) into the editor, and save.
