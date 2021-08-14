@@ -9,11 +9,6 @@ means.
 For more information, please refer to <http://unlicense.org/>
 *********************************************************************/
 
-/*
-WiTeX
-https://github.com/AndrewBelt/WiTeX
-*/
-
 
 /* Latin Modern (LaTeX default) font */
 
@@ -62,23 +57,58 @@ https://github.com/AndrewBelt/WiTeX
 /* Page Layout */
 
 body {
-	background: none;
+	background-color: #222222;
 	font-size: 14pt;
 	font-family: 'Latin Modern Roman', serif;
-	color: black;
+	color: #A153CB;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	border: none;
 	font-weight: bold;
+	color: #A153CB;
 }
 
+.spoken-wikipedia-header {
+	color: black;
+}
+
+.spoken-wikipedia-disclaimer {
+	color: black;
+}
+
+toctogglecheckbox {
+	color: #A153CB;
+}
+
+td {
+	background-color: #222222;
+	color: white;
+}
+
+.thumb {
+	background-color: #222222;
+	color: black;
+}
+
+table.infobox.iota {
+	background-color: #222222;
+}
+
+/*equation {*/
+/*	color: #A153CB;*/
+/*}*/
+
 a, a:visited {
-	color: #a00;
+	color: #82EC63;
+}
+
+.mw-redirectedfrom {
+	color: white;
 }
 
 a.new, a.new:visited {
-	color: black;
+	color: #82EC63;
 }
 
 ul {
@@ -99,12 +129,14 @@ ul {
 
 #content, div#content {
 	border: none;
-	color: black;
+	color: white;
+	background-color: #222222;
 }
 
 #firstHeading, #siteSub {
 	text-align: center;
 	display: block;
+	background-color: #222222;
 }
 
 #siteSub {
@@ -121,6 +153,7 @@ ul {
 	-webkit-hyphens: auto;
 	hyphens: auto;
 	line-height: 1.5em;
+	background-color: #222222;
 }
 
 .mw-body {
@@ -173,6 +206,8 @@ table.ambox {
 dl dd {
 	/* center definitions (most useful for display equations) */
 	text-align: center;
+	color: black;
+	background-color: dimgray;
 }
 
 span.texhtml {
