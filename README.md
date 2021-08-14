@@ -2,8 +2,6 @@
 ![WiTeX screenshot](https://raw.githubusercontent.com/AndrewBelt/WiTeX/master/screenshot.png)
 
 # WiTeX
-*If Donald Knuth had designed Wikipedia*
-
 ## Install
 If you have a Wikipedia account, open your [Preferences](https://en.wikipedia.org/wiki/Special:Preferences), go to the Appearance tab, and edit the Custom CSS for the Vector skin.
 Paste the contents of [`style.css`](https://raw.githubusercontent.com/AndrewBelt/WiTeX/master/style.css) into the editor, and save.
