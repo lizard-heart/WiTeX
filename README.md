@@ -1,6 +1,4 @@
-
-<img width="1852" alt="Screen Shot 2021-08-14 at 15 42 35" src="https://user-images.githubusercontent.com/62226606/129461962-3366da6a-761b-4494-82ac-09e97a722935.png">
-
+<img width="1852" alt="Screen Shot 2021-08-14 at 15 46 49" src="https://user-images.githubusercontent.com/62226606/129462017-784ae8c5-1b59-49f5-a307-6611d4109ae6.png">
 
 # Wikipedia Dark Mode
 ## Install
