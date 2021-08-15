@@ -10,7 +10,7 @@ For more information, please refer to <http://unlicense.org/>
 *********************************************************************/
 
 
-/* Latin Modern (LaTeX default) font */
+/* Fonts */
 
 @font-face {
 	font-family: 'Latin Modern Roman';
@@ -81,9 +81,32 @@ toctogglecheckbox {
 	color: #A153CB;
 }
 
+
+/* Turn elements dark */
 td {
 	background-color: #222222;
 	color: white;
+}
+
+th {
+	background-color: #222222;
+	background: #222222;
+	color: white;
+}
+
+tr {
+	background-color: #222222;
+	color: white;
+}
+
+tr.th {
+	background-color: #222222;
+	color: white
+}
+
+blockquote {
+	color: black;
+	background-color: AliceBlue;
 }
 
 .thumb {
@@ -91,13 +114,39 @@ td {
 	color: black;
 }
 
+vevent {
+	background-color: #222222;
+}
+
 table.infobox.iota {
 	background-color: #222222;
 }
 
-/*equation {*/
-/*	color: #A153CB;*/
-/*}*/
+caption.infobox-title {
+	background-color: #222222;
+	color: white;
+}
+
+th.sidebar-title.navbox-title {
+	background-color: #222222;
+	color: white;
+}
+
+th.sidebar-heading.navbox-abovebelow {
+	background-color: #222222;
+	color: white;
+}
+
+
+td.sidebar-below.navbox-abovebelow.plainlist{
+	background-color: #222222;
+	color: white;
+}
+
+editOptions {
+	background-color: #222222;
+}
+
 
 a, a:visited {
 	color: #82EC63;
@@ -115,8 +164,21 @@ ul {
 	list-style: disc;
 }
 
+/* Hide Content */
+
+div.metadata.plainlinks.sistersitebox.plainlist.mbox {
+	display: none;
+}
+
 #mw-navigation, #mw-page-base, #mw-head-base, #footer {
-	/* nuke everything but the content */
+	display: none;
+}
+
+.mw-editsection {
+	display: none;
+}
+
+.toctoggle {
 	display: none;
 }
 
@@ -194,10 +256,7 @@ ul {
 	text-indent: 2em;
 }
 
-.mw-editsection {
-	/* hide more non-content */
-	display: none;
-}
+
 
 table.ambox {
 	margin-bottom: 1em;
@@ -207,7 +266,11 @@ dl dd {
 	/* center definitions (most useful for display equations) */
 	text-align: center;
 	color: black;
-	background-color: dimgray;
+	background-color: #696969;
+}
+
+table.wikitable tr th {
+	background-color: #222222;
 }
 
 span.texhtml {
@@ -239,10 +302,6 @@ span.texhtml {
 
 #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
 	text-align: left;
-}
-
-.toctoggle {
-	display: none;
 }
 
 /* Figures */
