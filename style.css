@@ -63,10 +63,21 @@ body {
 	color: #A153CB;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
 	border: none;
 	font-weight: bold;
 	color: #A153CB;
+}
+h3 {
+	border: none;
+	font-weight: bold;
+	color: #A3AB41;
+}
+
+h4, h4, h5, h6 {
+	border: none;
+	font-weight: bold;
+	color: coral;
 }
 
 .spoken-wikipedia-header {
@@ -137,6 +148,10 @@ th.sidebar-heading.navbox-abovebelow {
 	color: white;
 }
 
+ul#filetoc {
+	background-color: #222222;
+}
+
 
 td.sidebar-below.navbox-abovebelow.plainlist{
 	background-color: #222222;
@@ -162,6 +177,7 @@ a.new, a.new:visited {
 
 ul {
 	list-style: disc;
+	background-color: #222222;
 }
 
 /* Hide Content */
