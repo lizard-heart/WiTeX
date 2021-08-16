@@ -120,9 +120,9 @@ blockquote {
 	background-color: AliceBlue;
 }
 
-.thumb {
-	background-color: #222222;
-	color: black;
+div.thumbinner {
+	background-color: black;
+	color: white;
 }
 
 vevent {
@@ -138,9 +138,18 @@ caption.infobox-title {
 	color: white;
 }
 
+.infobox-header {
+	background: #222222;
+
+}
+
 th.sidebar-title.navbox-title {
 	background-color: #222222;
 	color: white;
+}
+
+th.sidebar-heading {
+	background: #222222;
 }
 
 th.sidebar-heading.navbox-abovebelow {
@@ -158,13 +167,17 @@ td.sidebar-below.navbox-abovebelow.plainlist{
 	color: white;
 }
 
+td.infobox-subheader {
+	background-color: #222222;
+}
+
 editOptions {
 	background-color: #222222;
 }
 
 
 a, a:visited {
-	color: #82EC63;
+	color: #83ed63;
 }
 
 .mw-redirectedfrom {
