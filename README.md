@@ -10,4 +10,4 @@ Alternatively, you can load the CSS using a browser plugin (such as [Stylus](htt
 
 
 #### I want the old Wikipedia design back!
-While logged in, go to the [edit `vector.css` page](https://en.wikipedia.org/wiki/User:Lizardheart/vector-2022.css&action=edit), delete the contents, and save.
+While logged in, go to the [edit `vector.css` page](https://en.wikipedia.org/w/index.php?title=User:Lizardheart/vector-2022.css&action=edit), delete the contents, and save.
