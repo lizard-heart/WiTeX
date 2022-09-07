@@ -9,6 +9,8 @@ means.
 For more information, please refer to <http://unlicense.org/>
 *********************************************************************/
 
+/* ACTUALLY 2022 VERSION */
+
 /* Fonts */
 @font-face {
 	font-family: 'Latin Modern Roman';
@@ -53,6 +55,11 @@ For more information, please refer to <http://unlicense.org/>
 }
 
 /* Page Layout */
+div.mw-page-container {
+	background-color: #222222;
+	padding-right: 0px;
+}
+
 div.mw-page-container.vector-layout-grid.vector-toc-visible {
 	background-color: #222222;
 	padding-left: 0px;
@@ -64,12 +71,21 @@ nav#mw-panel-toc.sidebar-toc {
 	color: black;
 }
 
+div#mp-middle.MainPageBG.mp-box, div#mp-right.MainPageBG.mp-box, div#mp-left.MainPageBG.mp-box {
+	background: #222222;
+}
+
 div.sidebar-toc-text {
 	color: #2b72e8;
 }
 
 a.external.text, a.external.text:visited {
 	color: yellow;
+}
+
+div.rt-tooltipContent.mw-parser-output {
+	background-color: black;
+	color: white;
 }
 
 div.mw-table-of-contents-container.mw-sticky-header-element {
@@ -82,7 +98,7 @@ div.mw-article-toolbar-container.span {
 }
 
 ul.vector-menu-content-list {
-	background-color: lightgray;
+	background-color: white;
 }
 
 div.mw-workspace-container {
@@ -99,7 +115,7 @@ div.mw-page-container.vector-layout-legacy {
 
 body {
 	background-color: #222222;
-	font-size: 14pt;
+	font-size: 16pt;
 	font-family: 'Latin Modern Roman', serif;
 	color: #A153CB;
 }
@@ -212,6 +228,7 @@ td.sidebar-below.navbox-abovebelow.plainlist{
 	color: white;
 }
 
+
 td.infobox-subheader {
 	background-color: #222222;
 }
@@ -263,7 +280,7 @@ label#mw-sidebar-button.mw-checkbox-hack-button.mw-ui-icon {
 /* Content Box */
 
 .mw-body {
-	max-width: 720px;
+	max-width: 900;
 	margin: 1em auto;
 }
 
@@ -360,7 +377,7 @@ span.texhtml {
 }
 
 header.mw-header {
-	background-color: lightgray;
+	background-color: white;
 }
 
 div.row.uls-language-block {
